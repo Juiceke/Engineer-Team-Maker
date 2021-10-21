@@ -1,0 +1,56 @@
+/* Style everything */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* End of everythings style */
+body {
+  background-color: lightgray;
+}
+nav {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  position: relative;
+  background-color: beige;
+  width: 100%;
+  height: 100px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 0 1 18%;
+  background-color: gray;
+  box-shadow: 4px 4px;
+  margin: 10px;
+  width: 20%;
+}
+
+.card-header {
+  background-color: white;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+@media (max-width: 1080px) and (min-width: 420px) {
+  .card {
+    flex: 0 1 30%;
+  }
+}
+
+@media (max-width: 420px) and (min-width: 320px) {
+  .card {
+    flex: 0 1 44%;
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    flex: 0 1 100%;
+  }
+}
