@@ -6,8 +6,6 @@
   [Installation section](#Installation)
   
   [Usage section](#Usage)
-  
-  [Contributing section](#Contributing)
 
   [How to use section](#How-to-use-the-app)
 
